@@ -1,7 +1,7 @@
 const jsdom = require( 'jsdom' );
 const path = require( 'path' );
-var cha = require( 'cha' );
-cha.use( require( 'cha-fs' ) );
+var chai = require( 'chai' );
+chai.use( require( 'chai-fs' ) );
 
 describe( 'This assignment', () => {
   it( 'has been correctly cloned to your local environment', () => {
